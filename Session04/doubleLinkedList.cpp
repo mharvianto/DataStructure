@@ -153,6 +153,12 @@ void pop_mid(char name[]) {
     }
 }
 
+void pop_all() {
+    while (head != 0) {
+        pop_head();
+    }
+}
+
 int main()
 {
     push_mid("Kevin", 90);
